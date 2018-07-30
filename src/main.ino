@@ -25,8 +25,9 @@ if (bxco >= 160){
     if (byco < 80){
     //Ball is at the front
 }   if (byco <= 160 && byco >= 80){
-      //Ball is literally on the camera
-}   if (byco > 160){
+      if (byco >= 80){
+        //Ball is literally on the camera
+}}  if (byco > 160){
       //Ball is at the back
 }}if (bxco > 240){
 }   if (byco < 80){
