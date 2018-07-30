@@ -2,7 +2,7 @@
 
 int motorPin = 5;
 int bxco = 150;
-int
+int byco = 120
 
 void setup(){
 pinMode(motorPin, OUTPUT);
